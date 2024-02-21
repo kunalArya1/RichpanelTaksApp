@@ -15,8 +15,8 @@ const App = () => {
   };
   return (
     <>
-      <div className=" h-screen w-screen bg-slate-300 p-20">
-        <div className=" h-[50%] w-[40%] bg-gray-400 text-center p-5 m-auto my-[9rem]">
+      <div className=" h-[86vh] bg-slate-300 p-20">
+        <div className=" h-[95%] w-[40%] bg-gray-400 text-center p-5 m-auto">
           <input
             onChange={(e) => setemail(e.target.value)}
             className=" w-[45%] p-5 outline-none mt-10 rounded-lg"
