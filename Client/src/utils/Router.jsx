@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Register from "../Components/Register";
 import Login from "../Components/Login";
-import Dashboard from "../Components/Dashboard";
+import FacebookLoginButton from "../Components/FacebookLoginButton";
 import Home from "../Components/Home";
 export const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/Dasboard",
-        element: <Dashboard />,
+        element: <FacebookLoginButton />,
       },
       {
         path: "/home",
